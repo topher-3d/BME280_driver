@@ -1,1 +1,2 @@
-examples/bme280
+*.o
+/bme280
