@@ -1,4 +1,16 @@
 # BME280 sensor API
+
+## Topher's modifications:
+
+I actually started with demo code downloaded from:
+https://www.waveshare.com/wiki/BME280_Environmental_Sensor
+
+This uses an older version of the bme280* C library functions, and mates them with
+a now-obsolete WiringPi library. I modified this (mostly main.c) to use the more
+standard Linux SPI userspace devices.
+
+TODO: update bme280* files with upstream changes.
+
 ## Introduction
 This package contains the Bosch Sensortec's BME280 pressure sensor driver (sensor API)
 
